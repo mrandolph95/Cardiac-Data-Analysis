@@ -95,3 +95,5 @@ The predicted labels and true labels are shown alongside images in a plot.
 - The model is trained with 10,000 images sampled from each class (with a reduced sample size per class to avoid overfitting).
 - Ensure that the correct file paths for the data and images are set when running the code.
 - You can adjust the number of epochs, batch size, and image sample size according to your system's capabilities.
+
+Data resource: https://www.cardiacatlas.org/sunnybrook-cardiac-data/
