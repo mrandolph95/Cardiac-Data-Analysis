@@ -10,7 +10,7 @@ Before running the code, make sure the following libraries are installed:
 pip install tensorflow
 pip install pydicom
 pip install Pillow
-pip install seaborn
+pip install matplotlib
 pip install opencv-python
 ```
 
