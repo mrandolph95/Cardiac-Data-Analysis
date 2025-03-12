@@ -39,10 +39,11 @@ The project involves several key steps:
 ### Flask API and Docker Containerization:
 - The model has been integrated into a FlaskAPI app, which allows for prediction requests via API calls.
 - The app is containerized using Docker to make deployment easier and more portable. The repository includes:
-  - **app.py**: The Flask API app file.
+  - **cardiac_app.py**: The Flask API app file.
   - **Dockerfile**: The Dockerfile for containerization.
   - **requirements.txt**: The list of Python dependencies.
-  - **model_script.py**: The script used to create and train the models.
+  - **heart_images.py**: The script used to create and train the models.
+  - **heart_images.ipynb**: The Colab notebook containing the code for model training, evaluation, and prediction.
 
 ## Project Setup
 
@@ -81,8 +82,8 @@ When running the model, you will see the following outputs:
 - Example image predictions alongside the true labels.
 
 ```bash
-Test Loss: 0.3157
-Test Accuracy: 87.5%
+Test Loss: 0.0977
+Test Accuracy: 97.9%
 ```
 
 The predicted labels and true labels are shown alongside images in a plot.
